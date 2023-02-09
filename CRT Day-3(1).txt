@@ -1,0 +1,140 @@
+txt='susmitha'
+index=0
+for i in txt:
+    print("message [",index,"] = ",i)
+    index+=1
+
+txt='the nun'
+print(txt.title())
+
+txt='DONKEY'
+print(txt.lower())
+
+txt='donkey'
+print(txt.upper())
+
+txt='8'
+print(txt.zfill(4))
+
+n=int(input())
+s=0
+while(n!=0):
+    r=n%10
+    s=s+(r*r*r)
+    n=n//10
+if s==n:
+    print("armstrong")
+else:
+    print("not armstrong")
+
+txt='sreya'
+print(txt)
+print(txt[1:5])
+print(txt[:6])
+print(txt[:])
+print(txt[-4])
+
+txt='susmitha'
+print(txt[::-1])
+
+txt='india'
+print(txt[::3])
+
+txt='   hi students   '
+print(txt.lstrip())
+
+ch='a'
+print(ord(ch))
+
+print(chr(115))
+
+txt1='india is great'
+txt2='is'
+if txt2 in txt1:
+    print("found")
+else:
+    print("not found")
+
+txt='glucose'
+print(max(txt))
+print(min(txt))
+
+txt1='india is my country'
+for i in txt1:
+    print(i,end=" ")
+
+txt='india is my country'
+i=0
+while i<len(txt):
+    letter=txt[i]
+    print(letter,end=" ")
+    i+=1
+
+txt='sa sa sa sa'
+print(txt.replace('s','p'))
+
+n=int(input())
+for i in range(1,n+1):
+    ch='A'
+    print()
+    for j in range(1,i+1):
+        print(ch,end=" ")
+        ch=chr(ord(ch)+1)
+
+message="danger"
+i=0
+while i<len(message):
+    letter=message[i]
+    print(chr(ord(letter)+2),end="")
+    i+=1
+
+List=[1,2,3,4,5,6,7,8,9,10]
+print(List)
+
+print(List[1])
+
+print(List[2:5])
+
+print(List[::2])
+
+print(List[1::3])
+
+List[5]=100
+print(List)
+
+List.append(200)
+print(List)
+
+txt='Donkey And Monkey'
+print(txt.swapcase())
+
+txt='abc,def,ghi,jkl'
+print(txt.split(','))
+print('-'.join(['abc','def','ghi','jkl']))
+
+txt='my name is susmitha'
+print(list(enumerate(txt)))
+
+txt='jamesbond007'
+print(txt.isalnum())
+print(txt.isalpha())
+print(txt.isnumeric())
+print(txt.isdigit())
+print(txt.islower())
+print(txt.isupper())
+
+txt=' '
+print(txt.isspace())
+txt=""
+print(txt.isspace())
+txt='susmitha'
+print(len(txt))
+txt='susmitha'
+print(len(txt))
+
+txt="susmitha"
+print(txt.ljust(10,'*'))
+print(txt.rjust(10,'*'))
+print(txt.center(10,'$'))
+print(txt.capitalize())
+
