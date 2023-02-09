@@ -1,0 +1,150 @@
+print("hello\tworld\tstudents")
+
+
+num=7
+amt=122.122
+code='a'
+long=1000000
+msg='hi'
+print(num)
+print(amt)
+print(code)
+print(msg)
+print(long) 
+
+
+num=int(input())
+print(type(num))
+print(num)
+
+
+a=123
+a=456
+a=int(input())
+a=int(input())
+print("a=",a)
+
+
+a=True
+print(a)
+
+print(20==20)
+
+print('susmitha'+'5')
+print(8+9)
+print('8'+'9')
+
+a=2
+b=5
+a,b=b,a
+print(a)
+print(b)
+
+a=2
+b=5
+a=a+b
+b=a-b
+print(a)
+print(b)
+
+a=3
+b=6
+print("before swap")
+print("a=",a)
+print("b=",b)
+a=a+b
+b=a-b
+a=a-b
+print("after swap")
+print("a=",a)
+print("b=",b)
+
+a=10
+b=20
+print("before swap")
+print("a=",a)
+print("b=",b)
+a=a*b
+b=a/b 
+a=a/b 
+print("after swap")
+print("a=",a)
+print("b=",b)
+
+a=15
+b=20
+print("before swap")
+print("a=",a)
+print("b=",b)
+a=a^b 
+b=a^b 
+a=a^b 
+print("after swap")
+print("a=",a)
+print("b=",b)
+
+a,b,c=14,15,20
+s=(a+b+c)/2
+area=(s*(s-a)*(s-b)*(s-c))**0.5 
+print(area)
+print(type(area))
+
+pi=3.14159
+r=5 
+circumference=2*pi*r
+print(circumference)
+
+a=int(input("enter a number a:"))
+b=int(input("enter a number b:"))
+if a>b:
+    print("a is largest number")
+else:
+    print("b is largest number")
+    
+num=int(input("enter a number num:"))
+if num<0:
+    print("num is negative")
+elif num>0:
+    print("num is positive")
+else:
+    print("num is zero")
+
+num=int(input("enter a number:"))
+if num==0:
+    print("num is zero")
+if num>0:
+    print("num is positive")
+if num<0:
+    print("num is negative")
+
+num=int(input("enter a number below 30:"))
+if num>0 and num<10:
+    print("range is 0-10")
+if num>=10 and num<20:
+    print("range is 10-20")
+if num>=20 and num<30:
+    print("range is 20-30")
+
+a=int(input('enter a:'))
+b=int(input('enter b :'))
+c=int(input('enter c:'))
+if a>b:
+    if a>c:
+        print("a is max")
+    else :
+        print("c is max")
+elif b>c:
+    print("b is max")
+else:
+    print("all are same")
+        
+n=10
+k=5
+m=int(input("enter a number:"))
+if m==0 or m>=5:
+    print("INVALID INPUT")
+else:
+    print("NUMBER OF CANDIES SOLD:",m)
+    print("NUMBER OF CANDIES AVAILABLE:",n-m)
+
+

@@ -1,0 +1,162 @@
+num=int(input("enter a number:"))
+i=0 #initialization
+while (i<=num): #condition
+    print(i,end=" ")
+    i=i+1 #increment or decrement
+
+n=int(input("enter a number:"))
+i=sum=0
+while(i<=n):
+    sum=sum+i
+    i=i+1
+    print(sum)
+
+n=int(input("enter a number:"))
+i=sum=0
+while(i<=n):
+    sum=sum+i 
+    i=i+1 
+print(sum)
+
+n=int(input("enter a number:"))
+i=sum=0
+while(n!=0):
+    r=n%10
+    sum=sum+r
+    n=n//10
+print(sum)
+    
+n=int(input("enter a number:"))
+i=0
+while(i<=n):
+    if i%2==0:
+        print(i,end=" ")
+    i=i+1
+
+n=int(input("enter a number :"))
+i=sum=0
+while(i<=n):
+    if i%2==0:
+        sum=sum+i 
+    i=i+1
+print(sum)
+
+n=int(input("enter a number:"))
+i=o=e=0
+while(i<=n):
+    if i%2==0:
+        e=e+i
+    else:
+        o=o+i
+    i=i+1
+print("even sum is:",e)
+print("odd sum is:",o)
+
+n=int(input("enter a number:"))
+temp=0
+while(n>0):
+    temp=n%10
+    print(temp,end="")
+    n=n//10
+
+dn=int(input("enter a number:"))
+bn=0
+i=0
+while dn!=0:
+    r=dn%2
+    bn=bn+r*(10**i)
+    dn=dn//2
+    i=i+1 
+print(bn)
+
+bn=int(input("enter a number:"))
+dn=0
+i=0
+while bn!=0:
+    r=bn%10
+    dn=dn+r*(2**i)
+    bn=bn//10
+    i=i+1 
+print(dn)
+
+for i in range(11):
+    print(i,end=" ")
+
+for i in range(1,21,5):
+    print(i)
+
+n=10
+s=0
+for i in range(1,n+1):
+    s=s+i 
+print("avg is",s/n)
+
+#program for math tables
+n=int(input("enter from 1-10: "))
+print("multiplication table of ",n)
+print("---------------------------")
+for i in range (1,11):
+    print(n,"X",i,"=",n*i)
+
+n=int(input("enter a number:"))
+fact=1 
+for i in range(1,n+1):
+    fact=fact*i 
+print("factorial value of",n,"is",fact)
+
+n=int(input())
+s=0.0
+for i in range(1,n+1):
+    a=1.0/i 
+    s=s+a 
+print(s)
+
+n=int(input())
+s=0.0
+for i in range(1,n+1):
+    a=i/i+1 
+    s=s+a 
+print(s)
+
+n=int(input("enter a number:"))
+i=e=o=0
+d=0 
+while(n>0):
+    i=n%10
+    n=n//10
+    if i%2==0:
+        e=e+i
+    else:
+        o=o+i 
+    i=i+1
+print("difference is",o-e)
+
+num=str(input())
+print(int(num,17))
+
+abc=[1,2,3,4,5,6,7]
+for i in abc:
+    if i==4:
+        break 
+    print(i)
+
+abc=[1,2,3,4,5,6,7]
+for i in abc:
+    if i==4:
+        continue
+    print(i)
+
+for letter in 'sreya':
+    pass
+    print("pass:",letter)
+
+import calendar
+y=int(input("enter the year"))
+m=1 
+cal=calendar.TextCalendar(calendar.SUNDAY)
+i=1 
+while i<=12:
+    cal.prmonth(y,i)
+    i=i+1
+
+
